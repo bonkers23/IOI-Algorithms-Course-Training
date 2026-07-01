@@ -1,0 +1,31 @@
+# M1L2 Activity 3: String Operations
+
+# Create a string
+text = "Python Programming"
+
+# Display the original string
+print("Original String:", text)
+
+# Find the length of the string
+print("Length:", len(text))
+
+# Convert to uppercase
+print("Uppercase:", text.upper())
+
+# Convert to lowercase
+print("Lowercase:", text.lower())
+
+# Access the first character
+print("First Character:", text[0])
+
+# Access the last character
+print("Last Character:", text[-1])
+
+# Slice the string
+print("First 6 Characters:", text[:6])
+
+# Replace a word
+print("After Replace:", text.replace("Programming", "Language"))
+
+# Check if a word exists in the string
+print("Contains 'Python':", "Python" in text)
