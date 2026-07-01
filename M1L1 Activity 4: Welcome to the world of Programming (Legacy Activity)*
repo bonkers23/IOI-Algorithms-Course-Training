@@ -1,0 +1,8 @@
+# M1L1 Activity 4: Welcome to the World of Programming (Legacy Activity)
+
+# Display welcome messages
+print("Welcome to the World of Programming!")
+print("My name is Rahul.")
+print("I am learning Python.")
+print("Programming helps us solve real-world problems.")
+print("I am excited to become a programmer!")
