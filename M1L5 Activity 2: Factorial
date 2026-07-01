@@ -1,0 +1,16 @@
+# M1L5 Activity 2: Factorial Recursion
+
+# Define a recursive function to find factorial
+def factorial(n):
+    # Base case
+    if n == 0 or n == 1:
+        return 1
+
+    # Recursive case
+    return n * factorial(n - 1)
+
+# Take input from the user
+number = int(input("Enter a number: "))
+
+# Display the factorial
+print("Factorial of", number, "is", factorial(number))
