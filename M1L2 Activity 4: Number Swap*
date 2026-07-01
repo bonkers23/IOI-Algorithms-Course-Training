@@ -1,0 +1,18 @@
+# M1L2 Activity 4: Number Swap
+
+# Assign values to two variables
+a = 10
+b = 20
+
+# Display values before swapping
+print("Before Swapping:")
+print("a =", a)
+print("b =", b)
+
+# Swap the values
+a, b = b, a
+
+# Display values after swapping
+print("After Swapping:")
+print("a =", a)
+print("b =", b)
