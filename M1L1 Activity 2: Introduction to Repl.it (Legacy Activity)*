@@ -1,0 +1,8 @@
+# M1L1 Activity 2: Introduction to Repl.it (Legacy Activity)
+
+# This program is written and executed on Replit.
+
+print("Welcome to Replit!")
+print("I am learning Python programming.")
+print("Replit allows me to write and run Python code online.")
+print("Thank you, Replit!")
