@@ -1,0 +1,10 @@
+# M1L3 ACP: Exam Eligibility
+
+# Take attendance percentage as input
+attendance = float(input("Enter your attendance percentage: "))
+
+# Check exam eligibility
+if attendance >= 75:
+    print("You are eligible to appear for the exam.")
+else:
+    print("You are not eligible to appear for the exam.")
