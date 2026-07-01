@@ -1,0 +1,17 @@
+# M1L6 Activity 2: Star (Turtle)
+
+import turtle
+
+# Create a turtle object
+pen = turtle.Turtle()
+
+# Set drawing speed
+pen.speed(5)
+
+# Draw a 5-pointed star
+for i in range(5):
+    pen.forward(150)
+    pen.right(144)
+
+# Keep the window open
+turtle.done()
