@@ -1,0 +1,21 @@
+# M1L6 Activity 3: Rainbow Spiral (Turtle)
+
+import turtle
+
+# Create a turtle object
+pen = turtle.Turtle()
+
+# Set drawing speed
+pen.speed(0)
+
+# List of colors
+colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
+
+# Draw a rainbow spiral
+for i in range(100):
+    pen.pencolor(colors[i % len(colors)])
+    pen.forward(i * 3)
+    pen.right(59)
+
+# Keep the window open
+turtle.done()
