@@ -1,0 +1,10 @@
+# M1L1 Activity 1: Print Statements and Comments
+
+# This program prints information about a student.
+
+print("Hello, World!")
+print("My name is Rahul.")
+print("I am learning Python.")
+print("Python is fun!")
+
+# End of the program.
