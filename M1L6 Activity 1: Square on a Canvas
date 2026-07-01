@@ -1,0 +1,14 @@
+# M1L6 Activity 1: Square on a Canvas (Turtle)
+
+import turtle
+
+# Create a turtle object
+pen = turtle.Turtle()
+
+# Draw a square
+for i in range(4):
+    pen.forward(100)
+    pen.right(90)
+
+# Keep the window open
+turtle.done()
