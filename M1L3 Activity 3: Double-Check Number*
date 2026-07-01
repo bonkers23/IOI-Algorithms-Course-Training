@@ -1,0 +1,20 @@
+# M1L3 Activity 3: Double-Check Number
+
+# Take a number as input from the user
+number = int(input("Enter a number: "))
+
+# Check if the number is positive, negative, or zero
+if number > 0:
+    print("The number is Positive.")
+
+    # Check if the positive number is even or odd
+    if number % 2 == 0:
+        print("It is also an Even number.")
+    else:
+        print("It is also an Odd number.")
+
+elif number < 0:
+    print("The number is Negative.")
+
+else:
+    print("The number is Zero.")
