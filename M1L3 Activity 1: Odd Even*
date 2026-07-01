@@ -1,0 +1,10 @@
+# M1L3 Activity 1: Odd Even
+
+# Take a number as input
+number = int(input("Enter a number: "))
+
+# Check whether the number is even or odd
+if number % 2 == 0:
+    print(number, "is an Even number.")
+else:
+    print(number, "is an Odd number.")
