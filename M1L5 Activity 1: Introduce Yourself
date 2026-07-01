@@ -1,0 +1,12 @@
+# M1L5 Activity 1: Introduce Yourself (Function)
+
+# Define a function
+def introduce():
+    print("Hello!")
+    print("My name is Rahul.")
+    print("I am 15 years old.")
+    print("I am learning Python.")
+    print("Nice to meet you!")
+
+# Call the function
+introduce()
