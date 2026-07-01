@@ -1,0 +1,23 @@
+# M1L4 Activity 4: Prime Number
+
+# Take a number as input from the user
+number = int(input("Enter a number: "))
+
+# Assume the number is prime
+is_prime = True
+
+# Prime numbers are greater than 1
+if number <= 1:
+    is_prime = False
+else:
+    # Check for factors from 2 to number-1
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+            break
+
+# Display the result
+if is_prime:
+    print(number, "is a Prime Number.")
+else:
+    print(number, "is Not a Prime Number.")
