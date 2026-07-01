@@ -1,0 +1,26 @@
+# M1L2 Activity 1: Data Types
+
+# Integer
+age = 15
+
+# Float
+height = 5.6
+
+# String
+name = "Rahul"
+
+# Boolean
+is_student = True
+
+# Display the values and their data types
+print("Name:", name)
+print("Data Type:", type(name))
+
+print("Age:", age)
+print("Data Type:", type(age))
+
+print("Height:", height)
+print("Data Type:", type(height))
+
+print("Is Student:", is_student)
+print("Data Type:", type(is_student))
