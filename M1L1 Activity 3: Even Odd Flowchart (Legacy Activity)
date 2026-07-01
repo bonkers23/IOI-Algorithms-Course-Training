@@ -1,0 +1,10 @@
+# M1L1 Activity 3: Even Odd Flowchart (Legacy Activity)
+
+# Take a number as input from the user
+number = int(input("Enter a number: "))
+
+# Check if the number is even or odd
+if number % 2 == 0:
+    print("The number is Even.")
+else:
+    print("The number is Odd.")
